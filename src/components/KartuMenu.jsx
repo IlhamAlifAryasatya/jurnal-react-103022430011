@@ -2,9 +2,6 @@ import { useState } from "react"
 import LabelHarga from "./LabelHarga.jsx"
 
 function kartuMenu({nama, harga, kategori="Makanan"}) {
-    const [jumlah, setJumlah] = useState(0);
-    const [catatan, setCatatan] = useState('');
-    const tambah = () => setJumlah (jumlah + 1);
 
     return(
         <>
